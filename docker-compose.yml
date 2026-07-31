@@ -9,11 +9,6 @@
 services:
   app:
     image: sprouttrack/sprout-track:latest
-    build:
-      context: .
-      dockerfile: Dockerfile
-      args:
-        ENABLE_NOTIFICATIONS: ${ENABLE_NOTIFICATIONS:-true}
     container_name: sprout-track
     restart: unless-stopped
     ports:
