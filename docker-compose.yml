@@ -8,7 +8,7 @@
 
 services:
   app:
-    image: sprouttrack/sprout-track:v1.6.5
+    image: sprouttrack/sprout-track:1.6.5
     container_name: sprout-track
     restart: unless-stopped
     ports:
